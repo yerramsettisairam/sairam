@@ -9,6 +9,7 @@ p{
 #sai{
     background-color: coral;
 }
+/*the below section is grouping selector*/
 h2,h3{
     background-color: burlywood;
     color: crimson;
