@@ -1,0 +1,17 @@
+p{
+    color: aqua;
+}
+.sai{
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#sai{
+    background-color: coral;
+}
+h2,h3{
+    background-color: burlywood;
+    color: crimson;
+    text-align: center;
+    border: 2px dotted black;
+}
