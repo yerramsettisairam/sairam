@@ -1,22 +1,26 @@
- p{
-    color: aqua;
+h1{
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
 }
 .sai{
-    background-color: brown;
-    border: 2px solid black;
-    border-radius: 8px;
+    color: darkred;
 }
-/*the below section is about id selector
 #sai{
-    background-color: coral;
-}*/
-/*the below section is grouping selector*/
-h2,h3{
-    background-color: burlywood;
-    color: crimson;
-    text-align: center;
-    border: 2px dotted black;
+    color: darkslateblue;
 }
-*{
-    background-color: gray;
+div{
+    border: orangered 2px solid;
+    border-radius: 5px;
+    border-width: 6px;
+    padding: 5px 10px;
+    margin: 5px 5px 10px 10px;
+    background-color: grey;
+    color: white;
+    opacity: 1.0;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wc1786810.jpg);
+    background-position: center;
+    background-size: cover;
 }
