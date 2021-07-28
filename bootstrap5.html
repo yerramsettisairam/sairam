@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>popover</title>
+    <link rel="stylesheet" href="../uxfactory/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <script src="../uxfactory/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="what" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="why" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="when" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+   <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+</body>
